@@ -1,9 +1,8 @@
 # Java Image Editor
 
+Welcome to the Java Image Image_Editor – your all-in-one solution for image enhancement. This tool simplifies image manipulation with features such as grayscale conversion, rotation, brightness adjustment, inversion, and pixelated or Gaussian blur. Elevate your image editing game today and explore endless creative possibilities.
 
-Java Image EditMagic is a simple image editing tool that allows you to perform various operations on images, such as converting to grayscale, rotating, inverting, adjusting brightness, and more.
-
-The initial image is :- 
+ORIGINAL IMAGE : 
 
 ![Image Editor Screenshot](image.jpg)
 
