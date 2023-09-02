@@ -10,23 +10,37 @@ ORIGINAL IMAGE :
 
 - *Convert to Grayscale:* Transform colored images into grayscale.
   
-  ![Image Editor Screenshot](grayscaleImage.jpg)
+  ![Image Editor Screenshot](grayScaleImage.jpg)
 
 - *Rotate:* Rotate images 90 degrees clockwise.
   
-  ![Image Editor Screenshot](rotatedImage.jpg)
+  ![Image Editor Screenshot](clockwiseImage.jpg)
+
+- *Rotate:* Rotate images 90 degrees anticlockwise.
+
+  ![Image Editor Screenshot](anticlockwiseImage.jpg)
 
 - *Horizontal Invert:* Flip images horizontally.
   
-  ![Image Editor Screenshot](HorizontallyrotatedImage.jpg)
+  ![Image Editor Screenshot](invertHorizontally.jpg)
 
 - *Vertical Invert:* Flip images vertically.
   
-  ![Image Editor Screenshot](VerticallyrotatedImage.jpg)
+  ![Image Editor Screenshot](invertVertically.jpg)
 
-- *Adjust Brightness:* Increase or decrease image brightness.
+- *Adjust Brightness:* Increase image brightness.
   
-  ![Image Editor Screenshot](changebright.jpg)
+  ![Image Editor Screenshot](increaseBrightness.jpg)
+
+- *Adjust Brightness:* Decrease image brightness.
+
+  ![Image Editor Screenshot](decreaseBrightness.jpg)
+
+- *Blur Images:* Blur an image.
+
+  ![Image Editor Screenshot](blurredImage.jpg)
+  
+
 
 ## Getting Started
 
