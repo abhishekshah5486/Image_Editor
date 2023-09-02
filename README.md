@@ -52,13 +52,13 @@ Follow these steps to get started with the Java Image Editor:
 - Any Java IDE.
 - An Image.
 ### Libraries Needed:-
-  - javax.imageio.ImageIO;
-  - java.awt.*;
-  - java.awt.image.*;
-  - java.io.File;
-  - java.io.IOException;
-  - java.nio.Buffer;
-  - java.util.Scanner;
+  - java.awt.Color;
+  - import java.awt.image.BufferedImage;
+  - import java.io.File;
+  - import java.io.IOException;
+  - import java.util.*;
+  - import javax.imageio.ImageIO;
+
     
 # All the Functions Explanations:-
 
