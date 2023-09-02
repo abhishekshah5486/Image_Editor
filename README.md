@@ -88,23 +88,38 @@ Follow these steps to get started with the Java Image Editor:
 
 5) VERTICAL INVERSION : This Java method, invertImageVertically, flips the input image vertically along its horizontal axis. It iterates through half of the image's height and swaps pixel values between the top and bottom halves to achieve vertical inversion. The result is returned as outputImage.
 
-6) HORIZONTAL INVERSION : Here I First get the height and width of the image which i need to edit. Then I created a new bufferred Image in which I append the new changes. Then I used a nested for loop for getting the particular pixel values of the image, then i set the values according to the need in the new bufferred image. This runs and successfully creates a result image in the current working directory with name HorizontallyrotatedImage.jpg.
+6) HORIZONTAL INVERSION : This Java code defines a method invertImageHorizontally to horizontally flip a BufferedImage. It iterates through half of the image's width, swapping pixel values from left to right within each row to create a horizontally inverted version of the input image. The result is stored in outputImage, which is returned at the end.
 
-7) CHANGE BRIGHTNESS : Here I First get the height and width of the image which i need to edit. Then I created a new bufferred Image in which I append the new changes. Then I asked the user to enter the percent of brightness to increase between 1 to 100. After which I increased the red, green and blue pixel values by that much percent and if it exceeds 255 then i set it to 255 and similarly if it decreases from 0 then i set i to 0.This runs and successfully creates a result image in the current working directory with name changebright.jpg.
+8) CHANGE BRIGHTNESS : This Java code defines a method changeBrightness to adjust the brightness of a BufferedImage. It iterates through each pixel in the image, and based on the option parameter:
+9) 
+- If option is 1, it increases the brightness by a given percentage.
+- If option is 2, it decreases the brightness by a given percentage.
+  
+The adjusted pixel values are then set in the outputImage, which is returned as the result.
+This code efficiently adjusts the brightness of the input image based on the specified percentage and option.
+
+9) PIXELATED BLUR :
+- The method retrieves the height and width of the input image to determine its dimensions.
+- It creates a new BufferedImage, outputImage, with the same dimensions as the input image.
+- It iterates through the input image in smaller grids of size sizeMatrix * sizeMatrix using nested loops:
+- For each grid, it calculates the average red, green, and blue values by summing the color values of all pixels within the grid and dividing by the total number of pixels in the grid (sizeMatrix * sizeMatrix).
+It then assigns the average color values to all pixels within the grid in the outputImage, effectively blurring the image within that grid.
+After processing all grids, the method returns the outputImage, which now contains the input image with a blurring effect applied.
 
 
 
 # Usage
-- Open the project in your favorite Java IDE (e.g., Eclipse, IntelliJ IDEA).
+- Open the project in your favorite Java IDE (e.g., Eclipse, IntelliJ IDEA, VS Code).
 
-- Run the ImageEditor.java file.
-- You will be presented with a menu of options:
-- Convert to Grayscale: Converts the image to grayscale and saves it.
-- Rotate: Rotates the image 90 degrees clockwise and saves it.
-- Horizontal Invert: Flips the image horizontally and saves it.
-- Vertical Invert: Flips the image vertically and saves it.
-- Adjust Brightness: Adjusts the image brightness and saves it.
-- Exit: Quits the image editor.
+- Run the ImageEditor1.java file.
+  1) Convert the image to grayscale.
+  2) Rotate the image 90 degrees anticlockwise.
+  3) Rotate the image 90 degrees clockwise.
+  4) Change the brightness of the image (increase or decrease).
+  5) Vertically invert the image.
+  6) Horizontally invert the image (mirror image).
+  7) Apply pixelated blur or Gaussian blur to the image.
+The user also specifies additional parameters such as brightness adjustment percentage and blur amount where necessary.
 - Follow the on-screen instructions to perform the desired operation on your image.
 - After selecting the option the result image would be saved in the current working directory.
   
