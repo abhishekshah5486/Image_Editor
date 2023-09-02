@@ -4,7 +4,7 @@ Welcome to the Java Image Image_Editor – your all-in-one solution for image en
 
 ORIGINAL IMAGE : 
 
-![Image Editor Screenshot](image.jpg)
+![Image Editor Screenshot](image2.jpg)
 
 ## Features
 
