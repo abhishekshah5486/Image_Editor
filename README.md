@@ -182,21 +182,21 @@ Choose one of the following operations by entering the corresponding number:
 
 # OUTPUT OF THE CODE :
 
-![Image Editor Screenshot](grayscalecode.png)
+![Image Editor Screenshot](Output1.png)
 
 
 
-![Image Editor Screenshot](printpixelvalues.png)
+![Image Editor Screenshot](Output2.png)
 
 
-![Image Editor Screenshot](changebrightnessoutput.png)
+![Image Editor Screenshot](Output3.png)
 
 
 
 __________________________________________________________
 
 
-Enjoy image editing with Java!
+ENJOY IMAGE EDITING WITH JAVA !
 
 
 
