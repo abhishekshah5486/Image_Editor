@@ -53,11 +53,11 @@ Follow these steps to get started with the Java Image Editor:
 - An Image.
 ### Libraries Needed:-
   - java.awt.Color;
-  - import java.awt.image.BufferedImage;
-  - import java.io.File;
-  - import java.io.IOException;
-  - import java.util.*;
-  - import javax.imageio.ImageIO;
+  - java.awt.image.BufferedImage;
+  - java.io.File;
+  - java.io.IOException;
+  - java.util.*;
+  - javax.imageio.ImageIO;
 
     
 # All the Functions Explanations:-
