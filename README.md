@@ -116,26 +116,26 @@ Follow these steps to get started with the Java Image Editor:
 
 This Java program, ImageEditor1, is a simple image processing tool that allows you to perform various operations on an input image. It provides the following image manipulation functionalities:
 
-1.Convert to Grayscale: Converts the input image to grayscale.
-2.Rotate Image Anticlockwise: Rotates the input image by 90 degrees anticlockwise.
-3.Rotate Image Clockwise: Rotates the input image by 90 degrees clockwise.
-4.Change Brightness: Increases or decreases the brightness of the image based on user input.
-5.Invert Image Vertically: Vertically inverts (flips) the input image.
-6.Invert Image Horizontally: Horizontally inverts (mirrors) the input image.
-7.Apply Pixelated Blur: Applies a pixelated blur effect to the image based on a specified blur size matrix.
+1) Convert to Grayscale: Converts the input image to grayscale.
+2) Rotate Image Anticlockwise: Rotates the input image by 90 degrees anticlockwise.
+3) Rotate Image Clockwise: Rotates the input image by 90 degrees clockwise.
+4) Change Brightness: Increases or decreases the brightness of the image based on user input.
+5) Invert Image Vertically: Vertically inverts (flips) the input image.
+6) Invert Image Horizontally: Horizontally inverts (mirrors) the input image.
+7) Apply Pixelated Blur: Applies a pixelated blur effect to the image based on a specified blur size matrix.
 
 # HOW TO USE ? 
 Run the program and provide the path to the input image file.
 
 Choose one of the following operations by entering the corresponding number:
 
-1: Convert to Grayscale
-2: Rotate Image Anticlockwise
-3: Rotate Image Clockwise
-4: Change Brightness
-5: Invert Image Vertically
-6: Invert Image Horizontally
-7: Apply Pixelated Blur
+1) Convert to Grayscale
+2) Rotate Image Anticlockwise
+3) Rotate Image Clockwise
+4) Change Brightness
+5) Invert Image Vertically
+6) Invert Image Horizontally
+7) Apply Pixelated Blur
 - Depending on your choice, you may need to provide additional information such as the brightness change percentage or blur size matrix.
 
 - Enter the name for the output image file (e.g., "output.jpg").
