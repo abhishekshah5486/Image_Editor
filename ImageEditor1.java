@@ -221,13 +221,16 @@ public class ImageEditor1 {
             switch (choice) {
                 case 1: 
                         ImageIO.write(convertToGrayScale(inputImage),"jpg",outputFile);
+                        System.out.println("Image converted to grayscale.");
                         break;
                 case 2: 
                         ImageIO.write(rotateImageACW(inputImage), "jpg", outputFile);
+                        System.out.println("Image rotated anticlockwise by 90m degrees.");
                         break;
 
                 case 3:
                         ImageIO.write(rotateImageCW(inputImage), "jpg" ,outputFile);
+                        System.out.println("Image rotated clockwise by 90 degrees.");
                         break;
                 
                 case 4: System.out.println("Enter 1 ---> Increase Brightness");
@@ -236,17 +239,27 @@ public class ImageEditor1 {
                         System.out.println("Enter the percentage by which you want to increase or decrease the brightness of image.");
                         int percentage = myScanner.nextInt();
                         ImageIO.write(changeBrightness(inputImage,percentage,option),"jpg",outputFile);
+                        if ( option == 1 ) {
+                            System.out.println("Image brightness increased by" + percentage + "%");
+                        }
+                        else {
+                            System.out.println("Image brightness decreased by" + percentage + "%");
+                        }
                         break;
 
                 case 5: ImageIO.write(invertImageVertically(inputImage),"jpg",outputFile);
+                        System.out.println("Image inverted vertically.");
                         break;
+        
                 
                 case 6: ImageIO.write(invertImageHorizontally(inputImage),"jpg",outputFile);
+                        System.out.println("Image inverted horizontally.");
                         break;
 
                 case 7: System.out.println("Enter the amount of blur.");
                         int sizeMatrix = myScanner.nextInt();
                         ImageIO.write(convertToBlurr(inputImage,sizeMatrix),"jpg",outputFile);
+                        System.out.println("Image has been blurred.");
                         break;
 
                 default: System.out.println("INVALID CHOICE !");
