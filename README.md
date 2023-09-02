@@ -38,7 +38,7 @@ ORIGINAL IMAGE :
 
 - *Blur Images:* Blur an image.
 
-  ![Image Editor Screenshot](blurredImage.jpg)
+  ![Image Editor Screenshot](blurredImage3.jpg)
   
 
 
